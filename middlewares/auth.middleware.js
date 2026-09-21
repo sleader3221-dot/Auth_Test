@@ -24,7 +24,8 @@ const authToken = async (req, res, next) => {
     }
 
     // 3. Verify JWT token
-    const decoded = jwt.verify(token, process.env.JWT_SECRET);
+    const jwtSecret = process.env.JWT_SECRET || "dukaanse_auth_secret_jwt_key_2026";
+    const decoded = jwt.verify(token, jwtSecret);
 
     // 4. Find user in database
     const user = await User.findById(decoded.id).select("-password");

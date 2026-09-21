@@ -28,10 +28,7 @@ DukaanSE-UserAuth-Backend/
 ├── app.js                      # Express app configuration
 ├── index.js                    # Server entry point
 ├── package.json                # Project dependencies and scripts
-├── .env                        # Environment configuration
-├── .env.example                # Example environment variables template
 ├── postman_collection.json     # Ready-to-import Postman Collection
-├── postman_environment.json    # Ready-to-import Postman Environment
 └── test.js                     # Automated test script
 ```
 

@@ -74,7 +74,7 @@ userSchema.methods.generateToken = function () {
       email: this.email,
       role: this.role,
     },
-    process.env.JWT_SECRET,
+    process.env.JWT_SECRET || "dukaanse_auth_secret_jwt_key_2026",
     {
       expiresIn: process.env.JWT_EXPIRE || "7d",
     }
