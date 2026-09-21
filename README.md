@@ -1,6 +1,3 @@
-# DukaanSE - User Authentication Backend
-
-A clean, professional, and lightweight User Authentication Backend built with **Node.js**, **Express.js**, and **MongoDB (Mongoose)**, following the architecture and coding conventions of DukaanSE.
 
 ---
 
