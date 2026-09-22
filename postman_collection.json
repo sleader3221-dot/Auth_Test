@@ -8,7 +8,7 @@
   "variable": [
     {
       "key": "baseUrl",
-      "value": "https://ensemble-specializing-representing-book.trycloudflare.com",
+      "value": "https://dukaanse-auth-backend.vercel.app",
       "type": "string"
     },
     {
